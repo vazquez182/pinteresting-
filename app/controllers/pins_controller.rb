@@ -24,6 +24,7 @@ class PinsController < ApplicationController
       else
         format.html { render :new }
       end
+     end
   end
 
   def update
@@ -33,6 +34,7 @@ class PinsController < ApplicationController
       else
         format.html { render :edit }
       end
+    end
   end
 
   def destroy
